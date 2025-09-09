@@ -51,13 +51,12 @@ Targeted at **students and young adults** starting their financial journey, Mone
 ## 📂 Project Structure
 
 - /moneymate
-- /src
-- /components
-- /pages
-- /assets
-- App.js
-- index.js
-- /public
+-  /public
+-  /src
+-   /components
+-    /dashboard
+-     /css
+-   /images
 - package.json
 - README.md
 
