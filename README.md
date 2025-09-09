@@ -50,35 +50,35 @@ Targeted at **students and young adults** starting their financial journey, Mone
 
 ## 📂 Project Structure
 
-/moneymate
+- /moneymate
 
-/public
+- /public
 
-/src
+- /src
 
-/components
+- /components
 
-/dashboard # Main feature pages (Budget, Insights, Overview, Transactions, etc.)
+- /dashboard # Main feature pages (Budget, Insights, Overview, Transactions, etc.)
 
-Header.js # App header & navigation
+- Header.js # App header & navigation
 
-ProtectedRoute.js # Route protection
+- ProtectedRoute.js # Route protection
 
-ResetPassword.js # Password reset
+- ResetPassword.js # Password reset
 
-/images # Logos & static assets
+- /images # Logos & static assets
 
-App.js # Main app component
+-App.js # Main app component
 
-firebase.js # Firebase config & setup
+- firebase.js # Firebase config & setup
 
-index.js # Entry point
+- index.js # Entry point
 
-Login.js # Login page
+- Login.js # Login page
 
-package.json # Dependencies & scripts
+- package.json # Dependencies & scripts
 
-README.md
+- README.md
 
 ---
 
