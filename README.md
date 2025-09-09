@@ -55,7 +55,7 @@ Targeted at **students and young adults** starting their financial journey, Mone
 -  /src
 -   /components
 -    /dashboard
--     /css
+-    /css
 -   /images
 - package.json
 - README.md
