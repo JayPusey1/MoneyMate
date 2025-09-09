@@ -50,49 +50,19 @@ Targeted at **students and young adults** starting their financial journey, Mone
 
 ## 📂 Project Structure
 
-/moneymate
-/src
-/components
-/pages
-/assets
-App.js
-index.js
-/public
-package.json
-README.md
-
-yaml
-Copy code
+- /moneymate
+- /src
+- /components
+- /pages
+- /assets
+- App.js
+- index.js
+- /public
+- package.json
+- README.md
 
 ---
 
-## ⚙️ Installation & Setup
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/yourusername/moneymate.git
-   cd moneymate
-Install dependencies:
-
-bash
-Copy code
-npm install
-Configure Firebase:
-
-Create a Firebase project.
-
-Enable Authentication (Email/Password + Google).
-
-Set up Firestore Database.
-
-Add your Firebase config to the project (firebaseConfig.js).
-
-Run the app:
-
-bash
-Copy code
-npm start
 📸 Screenshots
 Overview Dashboard	Insights Page
 
@@ -129,21 +99,10 @@ Developing ML insights taught valuable lessons in data processing & scalability.
 
 User experience (simplicity, clarity, gamification) is as critical as functionality.
 
-📖 References
-Royce, W. (1970) Managing the development of Large Software Systems
-
-Heer, J., Bostock, M., Ogievetsky, V. (2010) A Tour Through the Visualization Zoo
-
-Kreger, A. (2024) Stop Overloading Banking Apps and Try Thinking like Apple
-
-Atlassian, Agile Alliance, Planview, Aktia Solutions, etc. (see full list in docs/report).
 
 👤 Author
 Jay Pusey
 💼 Graduate Software Engineer | Passionate about AI, Data-Driven Apps & UX Design
 🔗 LinkedIn • Portfolio
-
-yaml
-Copy code
 
 ---
