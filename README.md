@@ -68,7 +68,7 @@ Targeted at **students and young adults** starting their financial journey, Mone
 
 - /images # Logos & static assets
 
--App.js # Main app component
+- App.js # Main app component
 
 - firebase.js # Firebase config & setup
 
