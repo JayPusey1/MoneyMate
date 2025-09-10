@@ -5,7 +5,7 @@ import { getFirestore } from 'firebase/firestore';
 // Your web app's Firebase configuration
 // Replace with your actual Firebase project config
 const firebaseConfig = {
-    apiKey: "AIzaSyAv7yykoGi94XuLG5exWBbxrP1Sox7oDZg",
+    apiKey: "",
     authDomain: "moeny-mate-3.firebaseapp.com",
     projectId: "moeny-mate-3",
     storageBucket: "moeny-mate-3.firebasestorage.app",
@@ -23,5 +23,6 @@ export const googleProvider = new GoogleAuthProvider();
 
 // Export database
 export const db = getFirestore(app);
+
 
 export default app;
