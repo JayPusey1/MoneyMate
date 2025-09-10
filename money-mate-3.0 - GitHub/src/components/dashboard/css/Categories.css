@@ -1,0 +1,381 @@
+/* TransactionAnalysis.css */
+
+/* Page layout */
+.space-y-6 > * {
+  margin-bottom: 1.5rem;
+}
+
+/* Loading spinner */
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Card styling */
+.bg-white {
+  background-color: #ffffff;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.shadow {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+/* Info banner */
+.bg-blue-50 {
+  background-color: #eff6ff;
+}
+
+.border-l-4 {
+  border-left-width: 4px;
+}
+
+.border-blue-500 {
+  border-left-color: #3b82f6;
+}
+
+.text-blue-800 {
+  color: #1e40af;
+}
+
+.text-blue-700 {
+  color: #1d4ed8;
+}
+
+/* Error styling */
+.bg-red-100 {
+  background-color: #fee2e2;
+}
+
+.border-red-500 {
+  border-color: #ef4444;
+}
+
+.text-red-700 {
+  color: #b91c1c;
+}
+
+/* View toggle buttons */
+.text-gray-700 {
+  color: #374151;
+}
+
+.bg-gray-100 {
+  background-color: #f3f4f6;
+}
+
+.hover\:bg-gray-200:hover {
+  background-color: #e5e7eb;
+}
+
+.bg-blue-500 {
+  background-color: #3b82f6;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.hover\:bg-blue-600:hover {
+  background-color: #2563eb;
+}
+
+/* Form elements */
+.border {
+  border: 1px solid #e5e7eb;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+/* Disabled button */
+.bg-gray-300 {
+  background-color: #d1d5db;
+}
+
+.text-gray-500 {
+  color: #6b7280;
+}
+
+.cursor-not-allowed {
+  cursor: not-allowed;
+}
+
+/* Table styling */
+.min-w-full {
+  min-width: 100%;
+}
+
+.divide-y > * + * {
+  border-top-width: 1px;
+  border-color: #e5e7eb;
+}
+
+.bg-gray-50 {
+  background-color: #f9fafb;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.tracking-wider {
+  letter-spacing: 0.05em;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.hover\:bg-gray-50:hover {
+  background-color: #f9fafb;
+}
+
+.whitespace-nowrap {
+  white-space: nowrap;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+/* Progress bars */
+.bg-gray-200 {
+  background-color: #e5e7eb;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.h-2\.5 {
+  height: 0.625rem;
+}
+
+.bg-blue-600 {
+  background-color: #2563eb;
+}
+
+.bg-green-600 {
+  background-color: #059669;
+}
+
+.bg-purple-600 {
+  background-color: #7c3aed;
+}
+
+.bg-gray-600 {
+  background-color: #4b5563;
+}
+
+/* Pill badges */
+.bg-green-100 {
+  background-color: #d1fae5;
+}
+
+.text-green-800 {
+  color: #065f46;
+}
+
+.bg-red-100 {
+  background-color: #fee2e2;
+}
+
+.text-red-800 {
+  color: #991b1b;
+}
+
+/* List styling */
+.list-disc {
+  list-style-type: disc;
+}
+
+.pl-5 {
+  padding-left: 1.25rem;
+}
+
+.space-y-2 > * + * {
+  margin-top: 0.5rem;
+}
+
+/* Responsive grid */
+@media (min-width: 768px) {
+  .md\:flex-row {
+    flex-direction: row;
+  }
+  
+  .md\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  
+  .md\:mb-0 {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Chart containers */
+.h-96 {
+  height: 24rem;
+}
+
+/* Custom icon spacing */
+.lucide-react {
+  vertical-align: middle;
+}
+
+/* Better form layout */
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+/* Tooltip styling for charts */
+.recharts-tooltip-wrapper {
+  z-index: 10;
+}
+
+.recharts-default-tooltip {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  border: 1px solid #e5e7eb !important;
+  border-radius: 0.25rem !important;
+  padding: 0.5rem !important;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Make sure pie chart labels are readable */
+.recharts-pie-label-text {
+  font-size: 0.75rem;
+  font-weight: 500;
+  fill: #1e293b !important;  
+}
+
+.recharts-pie-label-line {
+  stroke: #94a3b8 !important;
+  stroke-width: 1 !important;
+}
+
+.recharts-sector {
+  stroke: white !important;
+  stroke-width: 2 !important;
+}
+
+/* Ensure bar chart is scrollable if needed */
+.recharts-wrapper {
+  margin: 0 auto;
+}
+
+/* Make the bar chart container fill its parent */
+.recharts-wrapper {
+  position: relative !important;
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+
+}
+
+/* Adjust the chart layout */
+.recharts-bar-chart {
+  margin-left: -140px;  /* Pull chart to the left */
+}
+
+.recharts-legend-wrapper {
+  bottom: 0 !important;
+  position: absolute !important;
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  flex-wrap: wrap !important;
+}
+
+.recharts-legend-item {
+  margin-right: 10px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+}
+
+/* Make bar chart fill the full width */
+.recharts-responsive-container {
+  position: relative !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* Ensure the Y-axis appears to the left */
+.recharts-yAxis .recharts-cartesian-axis-line {
+  transform: translateX(-140px);
+}
+
+/* Adjust Y-axis tick labels to show correctly */
+.recharts-yAxis .recharts-cartesian-axis-tick-value {
+  text-anchor: end !important;
+}
+
+/* Adjust bar width to be more visible */
+.recharts-bar-rectangle {
+  width: 90% !important;
+}
+
+.h-64, .h-80 {
+  height: 16rem;
+  position: relative;
+}
+
+.h-80 {
+  height: 20rem;
+}
+
+/* Proper spacing for chart container */
+.h-96 {
+  height: 400px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Override chart margin for better fit */
+.recharts-wrapper .recharts-surface {
+  overflow: visible;
+}
+
+/* Make tooltip still appear properly */
+.recharts-tooltip-wrapper {
+  pointer-events: none !important;
+  z-index: 10 !important;
+}
+
+/* Date picker styling */
+input[type="date"] {
+  padding: 0.5rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+}

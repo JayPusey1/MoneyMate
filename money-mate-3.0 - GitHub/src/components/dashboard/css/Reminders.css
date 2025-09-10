@@ -1,0 +1,327 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+  }
+  
+  .col-12, .col-md-4, .col-md-6 {
+    padding: 0 15px;
+    width: 100%;
+  }
+  
+  @media (min-width: 768px) {
+    .col-md-4 {
+      width: 33.333333%;
+    }
+    
+    .col-md-6 {
+      width: 50%;
+    }
+  }
+  
+  .reminders-summary {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    background-color: #f9fafb;
+    border-radius: 0.5rem;
+    padding: 1rem;
+  }
+  
+  .reminder-stat {
+    text-align: center;
+    flex: 1;
+  }
+  
+  .stat-label {
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin-bottom: 0.25rem;
+  }
+  
+  .stat-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  
+  .text-danger {
+    color: #ef4444;
+  }
+  
+  .text-primary {
+    color: #3b82f6;
+  }
+  
+  .text-success {
+    color: #10b981;
+  }
+  
+  .reminders-section {
+    margin-bottom: 2rem;
+  }
+  
+  .section-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Reminder Item Styles are in the ReminderItem component */
+  
+    .modal-backdrop {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1040;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(70, 70, 70, 0.5);
+    }
+
+    .modal-content {
+      position: relative;
+      z-index: 1050; /* Ensure content stays above the backdrop */
+    }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+  
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .modal-title {
+    margin: 0;
+    font-size: 1.25rem;
+  }
+  
+  .btn-close {
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .modal-body {
+    padding: 1rem;
+  }
+  
+  .modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    border-top: 1px solid #e5e7eb;
+    gap: 0.5rem;
+  }
+  
+  .spinner {
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    border-top: 3px solid #2563eb;
+    width: 24px;
+    height: 24px;
+    animation: spin 1s linear infinite;
+    margin: 0 auto;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Form switch styling */
+  .form-check {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-check-input {
+    margin-right: 0.5rem;
+  }
+  
+  .form-check-label {
+    margin-bottom: 0;
+  }
+  
+  .form-switch .form-check-input {
+    width: 2em;
+    height: 1em;
+  }
+
+.reminder-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    position: relative;
+    border-left: 4px solid #3b82f6;
+  }
+  
+  .reminder-item.overdue {
+    border-left-color: #ef4444;
+  }
+  
+  .reminder-item.paid {
+    border-left-color: #10b981;
+  }
+  
+  .reminder-content {
+    display: flex;
+    align-items: flex-start;
+    flex: 1;
+  }
+  
+  .reminder-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    background-color: #f3f4f6;
+    border-radius: 50%;
+    margin-right: 1rem;
+    color: #4b5563;
+  }
+  
+  .reminder-details {
+    flex: 1;
+  }
+  
+  .reminder-title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0.5rem;
+  }
+  
+  .reminder-title h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0;
+    margin-right: 0.5rem;
+  }
+  
+  .reminder-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    border-radius: 9999px;
+  }
+  
+  .badge.recurring {
+    background-color: #f3f4f6;
+    color: #4b5563;
+  }
+  
+  .badge.paid {
+    background-color: #10b981;
+    color: white;
+  }
+  
+  .badge.overdue {
+    background-color: #ef4444;
+    color: white;
+  }
+  
+  .badge.upcoming {
+    background-color: #3b82f6;
+    color: white;
+  }
+  
+  .reminder-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+  }
+  
+  .reminder-date {
+    font-size: 0.875rem;
+    color: #6b7280;
+  }
+  
+  .reminder-amount {
+    font-weight: 600;
+  }
+  
+  .reminder-notes {
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin-top: 0.5rem;
+  }
+  
+  .reminder-notes p {
+    margin: 0;
+  }
+  
+  .reminder-actions {
+    display: flex;
+    gap: 0.5rem;
+    position: relative;
+  }
+  
+  .delete-confirm {
+    position: absolute;
+    z-index: 10;
+    top: 100%;
+    right: 0;
+    background: white;
+    border: 4px solid #e5e7eb;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+  }
+  
+  .delete-confirm p {
+    margin-top: 0;
+  }
+  
+  @media (max-width: 640px) {
+    .reminder-title {
+      flex-direction: column;
+    }
+    
+    .reminder-badges {
+      margin-top: 0.5rem;
+    }
+    
+    .reminder-info {
+      flex-direction: column;
+    }
+    
+    .reminder-amount {
+      margin-top: 0.25rem;
+    }
+  }
