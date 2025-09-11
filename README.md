@@ -82,10 +82,19 @@ Targeted at **students and young adults** starting their financial journey, Mone
 
 ---
 
-📸 Screenshots
-Overview Dashboard	Insights Page
+## 📸 Screenshots
 
-Transactions Page	Budget Page
+| Insights Page (1) | Insights Page (2) |
+|-------------------|------------------|
+| [![Insights Screenshot 1](./assets/insight1.png)](./assets/insight1.png) | [![Insights Screenshot 2](./assets/insight2.png)](./assets/insight2.png) |
+
+| Sign Up Page | Transactions Page |
+|--------------|-----------------|
+| [![Sign Up Screenshot](./assets/signup.png)](./assets/signup.png) | [![Transactions Screenshot](./assets/transactions.png)](./assets/transactions.png) |
+
+| Budget Page |  |
+|-------------|--|
+| [![Budget Screenshot](./assets/budget.png)](./assets/budget.png) |  |
 
 📚 Research & Design Decisions
 Minimalist UI inspired by Apple’s design philosophy (Kreger, 2024).
@@ -119,9 +128,11 @@ Developing ML insights taught valuable lessons in data processing & scalability.
 User experience (simplicity, clarity, gamification) is as critical as functionality.
 
 
-👤 Author
-Jay Pusey
-💼 Graduate Software Engineer | Passionate about AI, Data-Driven Apps & UX Design
-🔗 LinkedIn • Portfolio
+## 👤 Author
 
----
+**Jay Pusey**  
+💼 Graduate Software Engineer | Passionate about **AI, Data-Driven Apps & UX Design**  
+
+🔗 [LinkedIn](https://www.linkedin.com/in/jay-pusey-058003262/)  
+🌐 [Portfolio](https://jaypusey1.github.io/Portfolio-Page/)
+
