@@ -2,7 +2,7 @@
 
 > Your personal financial friend — a web app that helps students and young adults build better financial habits with AI-powered insights, budgeting, and visualised spending analysis.
 
-![MoneyMate Screenshot](./assets/moneymate-banner.png)
+![MoneyMate Screenshot](./assets/moneymate-logo.png)
 
 ---
 
@@ -83,6 +83,10 @@ Targeted at **students and young adults** starting their financial journey, Mone
 ---
 
 ## 📸 Screenshots
+
+| Overview Page |  |
+|-------------|--|
+| [![Overview Screenshot](./assets/overview.png)](./assets/overview.png) |
 
 | Insights Page (1) | Insights Page (2) |
 |-------------------|------------------|
