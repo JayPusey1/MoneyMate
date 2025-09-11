@@ -94,7 +94,7 @@ Targeted at **students and young adults** starting their financial journey, Mone
 
 | Budget Page |  |
 |-------------|--|
-| [![Budget Screenshot](./assets/budget.png)](./assets/budget.png) |  |
+| [![Reminder Screenshot](./assets/reminder.png)](./assets/reminder.png) |  |
 
 📚 Research & Design Decisions
 Minimalist UI inspired by Apple’s design philosophy (Kreger, 2024).
