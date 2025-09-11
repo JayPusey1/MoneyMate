@@ -1,4 +1,4 @@
-# 💸 MoneyMate
+## 💸 MoneyMate
 
 > Your personal financial friend — a web app that helps students and young adults build better financial habits with AI-powered insights, budgeting, and visualised spending analysis.
 
@@ -100,14 +100,14 @@ Targeted at **students and young adults** starting their financial journey, Mone
 |-------------|--|
 | [![Reminder Screenshot](./assets/reminder.png)](./assets/reminder.png) |  |
 
-📚 Research & Design Decisions
+## 📚 Research & Design Decisions
 Minimalist UI inspired by Apple’s design philosophy (Kreger, 2024).
 
 Data visualisation guided by Heer et al. (2010), emphasising clarity over complexity.
 
 Competitive analysis of UK apps (Emma, Monzo, Money Dashboard, Plum) shaped MoneyMate’s focus on simplicity + gamification.
 
-🔮 Future Improvements
+## 🔮 Future Improvements
 🌍 Multi-language support with live currency conversion.
 
 📶 Offline mode with cloud sync.
@@ -120,7 +120,7 @@ Competitive analysis of UK apps (Emma, Monzo, Money Dashboard, Plum) shaped Mone
 
 🏆 Trophy & achievement system.
 
-🧪 Lessons Learned
+## 🧪 Lessons Learned
 Importance of planning & research before coding.
 
 Building with React & Tailwind improved front-end efficiency.
